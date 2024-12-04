@@ -1,0 +1,39 @@
+input{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  }
+  
+  button {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+  }
+  
+  button:hover{
+    background-color: #282727;
+  }
+  
+  
+  button:active{
+    background-color: #636363;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #3b3b3b;
+  }
